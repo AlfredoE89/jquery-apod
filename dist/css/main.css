@@ -308,35 +308,32 @@ body {
   margin: 100;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
-main {
-  width: 720px;
-  margin: 0 auto; }
-
 #apodTitle {
   color: #19378a; }
 
 #apodImg {
-  max-width: 100%; }
+  max-width: 15%; }
 
 div[id^="apod"] {
-  padding: 0.6rem 0;
-  font-size: 20px; }
+  margin-right: 70%;
+  padding: 0.3rem;
+  font-size: 13px; }
 
 /* https://alistapart.com/article/creating-intrinsic-ratios-for-video */
 /* 9/16 = 56.2 */
 #apodVideo {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 34%;
   /* 16:9 */
-  padding-top: 25px;
+  padding-top: 10px;
   height: 0; }
 
 iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%; }
+  width: 50%;
+  height: 50%; }
 
 /* USE IF CLASS BUTTON
   .button {
